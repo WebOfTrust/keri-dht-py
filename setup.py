@@ -32,7 +32,7 @@ setup(
     long_description="KERI DHT Discovery Mechanism using Kademlia",
     author='',
     author_email='',
-    url='https://github.com/decentralized-identity/keri-dht-py',
+    url='https://github.com/WebOfTrust/keri-dht-py',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
@@ -58,7 +58,7 @@ setup(
     project_urls={
         'Documentation': 'https://keridht.readthedocs.io/',
         'Changelog': 'https://keridht.readthedocs.io/en/latest/changelog.html',
-        'Issue Tracker': 'https://github.com/decentralized-identity/keri-dht-py/issues',
+        'Issue Tracker': 'https://github.com/WebOfTrust/keri-dht-py/issues',
     },
     keywords=[
         # eg: 'keyword1', 'keyword2', 'keyword3',

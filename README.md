@@ -4,7 +4,7 @@
 ## keri-dht-py
 
 Kademlia based DHT mechanism for KERI Discovery written in Python but leveraging C libraries for Kademlia. For more details, please visit [KERI Resources](https://keri.one/keri-resources/), in
-particular, the [whitepaper](https://github.com/ryanwwest/papers/blob/master/whitepapers/keridemlia.pdf). The [specifications for KERI](https://github.com/decentralized-identity/keri)
+particular, the [whitepaper](https://github.com/ryanwwest/papers/blob/master/whitepapers/keridemlia.pdf). The [specifications for KERI](https://github.com/WebOfTrust/keri-ietf-spec)
 are also a good place to go for more information.
 
 ## Quickest Start
@@ -29,7 +29,7 @@ We plan to release a docker container with the DHT soon.
 # Background and Dependencies
 
 `keridht` integrates the [core KERI libraries](https://github.com/SmithSamuelM/keripy)
-(https://github.com/decentralized-identity/keri) with [OpenDHT](https://github.com/savoirfairelinux/opendht)
+(https://github.com/WebOfTrust/keri-ietf-spec) with [OpenDHT](https://github.com/savoirfairelinux/opendht)
 using python. To be as performant as possible, the I/O is handled asynchronously
 using [hio](https://github.com/ioflo/hio).
 
